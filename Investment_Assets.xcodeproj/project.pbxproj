@@ -39,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8516F1CD27A6BB9200308FF0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				85188CD1279D95DF00A7047E /* Main.storyboard */,
+				85188CD9279D95E200A7047E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8516F1CE27A6BBAC00308FF0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85188CCF279D95DF00A7047E /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8516F1CF27A6BBB900308FF0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				85188CCB279D95DF00A7047E /* AppDelegate.swift */,
+				85188CCD279D95DF00A7047E /* SceneDelegate.swift */,
+				85188CDC279D95E200A7047E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8516F1D027A6BBDE00308FF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85188CD7279D95E200A7047E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8516F1D127A6BBE800308FF0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				85188CD4279D95DF00A7047E /* Investment_Assets.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		85188CBF279D95DF00A7047E = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +101,11 @@
 		85188CCA279D95DF00A7047E /* Investment_Assets */ = {
 			isa = PBXGroup;
 			children = (
-				85188CCB279D95DF00A7047E /* AppDelegate.swift */,
-				85188CCD279D95DF00A7047E /* SceneDelegate.swift */,
-				85188CCF279D95DF00A7047E /* ViewController.swift */,
-				85188CD1279D95DF00A7047E /* Main.storyboard */,
-				85188CD7279D95E200A7047E /* Assets.xcassets */,
-				85188CD9279D95E200A7047E /* LaunchScreen.storyboard */,
-				85188CDC279D95E200A7047E /* Info.plist */,
-				85188CD4279D95DF00A7047E /* Investment_Assets.xcdatamodeld */,
+				8516F1CD27A6BB9200308FF0 /* Storyboards */,
+				8516F1CE27A6BBAC00308FF0 /* View Controllers */,
+				8516F1CF27A6BBB900308FF0 /* App */,
+				8516F1D027A6BBDE00308FF0 /* Resources */,
+				8516F1D127A6BBE800308FF0 /* CoreData */,
 			);
 			path = Investment_Assets;
 			sourceTree = "<group>";
@@ -295,7 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T94XUBZ99A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Investment_Assets/Info.plist;
+				INFOPLIST_FILE = Investment_Assets/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,7 +364,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T94XUBZ99A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Investment_Assets/Info.plist;
+				INFOPLIST_FILE = Investment_Assets/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
