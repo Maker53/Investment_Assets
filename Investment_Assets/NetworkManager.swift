@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum NetwrokError: Error {
+enum NetworkError: Error {
     case invalidURL
     case noData
     case decodingError
@@ -18,7 +18,7 @@ class NetworkManager {
     
     private init() {}
     
-    func fetch(from url: String, completion: @escaping(Result<Share, NetwrokError>) -> Void) {
+    func fetch(from url: String, completion: @escaping(Result<Share, NetworkError>) -> Void) {
         guard let url = URL(string: url) else {
             completion(.failure(.invalidURL))
             return
