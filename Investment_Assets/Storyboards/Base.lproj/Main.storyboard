@@ -81,6 +81,13 @@
                                                 <constraint firstAttribute="bottom" secondItem="auZ-mG-xDy" secondAttribute="bottom" id="zgH-lm-82f"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="assetImage" destination="zbO-vH-cBa" id="HWz-rm-Lw4"/>
+                                            <outlet property="assetNameLabel" destination="Do0-4X-dcB" id="xfQ-ZN-JuP"/>
+                                            <outlet property="capitalizationLabel" destination="DAf-hN-Ocw" id="u1N-cW-Hwo"/>
+                                            <outlet property="countAndPriceLabel" destination="BsL-D5-Qp4" id="4S5-1E-dHR"/>
+                                            <outlet property="growthLabel" destination="vWi-Gy-mnw" id="rgb-ct-0vc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
