@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Investment_Assets
 //
 //  Created by Станислав on 23.01.2022.

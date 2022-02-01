@@ -11,7 +11,7 @@
 		8516F1D727A6D57A00308FF0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F1D627A6D57A00308FF0 /* NetworkManager.swift */; };
 		85188CCC279D95DF00A7047E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCB279D95DF00A7047E /* AppDelegate.swift */; };
 		85188CCE279D95DF00A7047E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCD279D95DF00A7047E /* SceneDelegate.swift */; };
-		85188CD0279D95DF00A7047E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCF279D95DF00A7047E /* ViewController.swift */; };
+		85188CD0279D95DF00A7047E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCF279D95DF00A7047E /* MainViewController.swift */; };
 		85188CD3279D95DF00A7047E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85188CD1279D95DF00A7047E /* Main.storyboard */; };
 		85188CD6279D95DF00A7047E /* Investment_Assets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85188CD4279D95DF00A7047E /* Investment_Assets.xcdatamodeld */; };
 		85188CD8279D95E200A7047E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85188CD7279D95E200A7047E /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		85188CC8279D95DF00A7047E /* Investment_Assets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Investment_Assets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85188CCB279D95DF00A7047E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85188CCD279D95DF00A7047E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85188CCF279D95DF00A7047E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85188CCF279D95DF00A7047E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		85188CD2279D95DF00A7047E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85188CD5279D95DF00A7047E /* Investment_Assets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Investment_Assets.xcdatamodel; sourceTree = "<group>"; };
 		85188CD7279D95E200A7047E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		8516F1CE27A6BBAC00308FF0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				85188CCF279D95DF00A7047E /* ViewController.swift */,
+				85188CCF279D95DF00A7047E /* MainViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			files = (
 				8516F1D727A6D57A00308FF0 /* NetworkManager.swift in Sources */,
 				8516F1D427A6CA7700308FF0 /* Share.swift in Sources */,
-				85188CD0279D95DF00A7047E /* ViewController.swift in Sources */,
+				85188CD0279D95DF00A7047E /* MainViewController.swift in Sources */,
 				85188CD6279D95DF00A7047E /* Investment_Assets.xcdatamodeld in Sources */,
 				85188CCC279D95DF00A7047E /* AppDelegate.swift in Sources */,
 				85188CCE279D95DF00A7047E /* SceneDelegate.swift in Sources */,
