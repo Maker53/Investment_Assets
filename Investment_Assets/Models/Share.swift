@@ -17,3 +17,7 @@ struct Securities {
 struct Marketdata {
     let data: [[Any]]
 }
+
+enum Link: String {
+    case api = "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities/VTBR/.json?iss.meta=off&iss.only=securities,marketdata&marketdata.columns=SECID,LAST&securities.columns=SHORTNAME"
+}
