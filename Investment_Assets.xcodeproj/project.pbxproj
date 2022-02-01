@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8516F1D427A6CA7700308FF0 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F1D327A6CA7700308FF0 /* Share.swift */; };
+		8516F1D727A6D57A00308FF0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F1D627A6D57A00308FF0 /* NetworkManager.swift */; };
 		85188CCC279D95DF00A7047E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCB279D95DF00A7047E /* AppDelegate.swift */; };
 		85188CCE279D95DF00A7047E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCD279D95DF00A7047E /* SceneDelegate.swift */; };
 		85188CD0279D95DF00A7047E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85188CCF279D95DF00A7047E /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8516F1D327A6CA7700308FF0 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		8516F1D627A6D57A00308FF0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		85188CC8279D95DF00A7047E /* Investment_Assets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Investment_Assets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85188CCB279D95DF00A7047E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85188CCD279D95DF00A7047E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8516F1D527A6D55800308FF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8516F1D627A6D57A00308FF0 /* NetworkManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		85188CBF279D95DF00A7047E = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 				8516F1CF27A6BBB900308FF0 /* App */,
 				8516F1D027A6BBDE00308FF0 /* Resources */,
 				8516F1D227A6CA1600308FF0 /* Models */,
+				8516F1D527A6D55800308FF0 /* Services */,
 				8516F1D127A6BBE800308FF0 /* CoreData */,
 			);
 			path = Investment_Assets;
@@ -192,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8516F1D727A6D57A00308FF0 /* NetworkManager.swift in Sources */,
 				8516F1D427A6CA7700308FF0 /* Share.swift in Sources */,
 				85188CD0279D95DF00A7047E /* ViewController.swift in Sources */,
 				85188CD6279D95DF00A7047E /* Investment_Assets.xcdatamodeld in Sources */,

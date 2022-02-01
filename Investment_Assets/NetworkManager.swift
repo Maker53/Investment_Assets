@@ -7,31 +7,36 @@
 
 import Foundation
 
+enum NetwrokError: Error {
+    case invalidURL
+    case noData
+    case decodingError
+}
+
 class NetworkManager {
     static let shared = NetworkManager()
     
     private init() {}
     
-    func fetch(from url: String) {
+    func fetch(from url: String, completion: @escaping(Result<Share, NetwrokError>) -> Void) {
         guard let url = URL(string: url) else {
-            print("wrong url")
+            completion(.failure(.invalidURL))
             return
         }
         
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data else {
-                print("wrong data")
+                completion(.failure(.noData))
                 return
             }
             
             do {
                 let share = try JSONDecoder().decode(Share.self, from: data)
                 DispatchQueue.main.async {
-                    print(share.marketdata.data.first ?? 0)
-                    print(share.securities.data.first ?? "")
+                    completion(.success(share))
                 }
-            } catch let error {
-                print(error)
+            } catch {
+                completion(.failure(.decodingError))
             }
         }.resume()
     }
