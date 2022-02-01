@@ -14,7 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NetworkManager.shared.fetch(from: Link.api.rawValue) { result in
+        fetchData(from: Link.api.rawValue)
+    }
+    
+    //MARK: - Private Methods
+    private func fetchData(from url: String) {
+        NetworkManager.shared.fetch(from: url) { result in
             switch result {
             case .success(let share):
                 self.share = share
