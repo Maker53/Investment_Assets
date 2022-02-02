@@ -18,7 +18,7 @@ class NetworkManager {
     
     private init() {}
     
-    func fetch(from url: String, completion: @escaping(Result<Share, NetworkError>) -> Void) {
+    func fetch(from url: String, completion: @escaping(Result<AssetData, NetworkError>) -> Void) {
         guard let url = URL(string: url) else {
             completion(.failure(.invalidURL))
             return
@@ -31,7 +31,7 @@ class NetworkManager {
             }
             
             do {
-                let share = try JSONDecoder().decode(Share.self, from: data)
+                let share = try JSONDecoder().decode(AssetData.self, from: data)
                 DispatchQueue.main.async {
                     completion(.success(share))
                 }

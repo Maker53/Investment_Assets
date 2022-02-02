@@ -1,11 +1,11 @@
 //
-//  Share.swift
+//  AssetData.swift
 //  Investment_Assets
 //
 //  Created by Станислав on 30.01.2022.
 //
 
-struct Share: Decodable {
+struct AssetData: Decodable {
     let securities: Securities
     let marketdata: Marketdata
 }

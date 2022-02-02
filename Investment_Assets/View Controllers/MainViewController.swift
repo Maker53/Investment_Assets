@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    private var share: Share!
+    private var share: AssetData!
     
     override func viewDidLoad() {
         super.viewDidLoad()
