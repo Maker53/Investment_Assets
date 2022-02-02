@@ -15,4 +15,12 @@ struct Asset {
     var capitalisation: Double {
         count * price
     }
+    
+    init?(assetData: AssetData) {
+        self.name = assetData.securities.data.first?.first ?? "error"
+        self.ticker = assetData.securities.data.first?.last ?? "error"
+        self.price = assetData.marketdata.data.first?.first ?? 0
+        self.count = 0
+        self.growth = 0
+    }
 }
