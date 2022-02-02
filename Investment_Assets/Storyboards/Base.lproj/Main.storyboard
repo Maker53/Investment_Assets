@@ -52,16 +52,16 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Zmc-1E-6KD">
-                                                    <rect key="frame" x="294.5" y="0.0" width="103.5" height="46.5"/>
+                                                    <rect key="frame" x="295" y="0.0" width="103" height="46.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Capitalization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAf-hN-Ocw">
-                                                            <rect key="frame" x="0.0" y="0.0" width="103.5" height="20.5"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Capitalisation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAf-hN-Ocw">
+                                                            <rect key="frame" x="0.0" y="0.0" width="103" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="% growth " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWi-Gy-mnw">
-                                                            <rect key="frame" x="0.0" y="25.5" width="103.5" height="21"/>
+                                                            <rect key="frame" x="0.0" y="25.5" width="103" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -84,7 +84,7 @@
                                         <connections>
                                             <outlet property="assetImage" destination="zbO-vH-cBa" id="HWz-rm-Lw4"/>
                                             <outlet property="assetNameLabel" destination="Do0-4X-dcB" id="xfQ-ZN-JuP"/>
-                                            <outlet property="capitalizationLabel" destination="DAf-hN-Ocw" id="u1N-cW-Hwo"/>
+                                            <outlet property="capitalisationLabel" destination="DAf-hN-Ocw" id="ChX-uA-5PU"/>
                                             <outlet property="countAndPriceLabel" destination="BsL-D5-Qp4" id="4S5-1E-dHR"/>
                                             <outlet property="growthLabel" destination="vWi-Gy-mnw" id="rgb-ct-0vc"/>
                                         </connections>

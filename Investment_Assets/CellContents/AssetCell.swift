@@ -12,7 +12,7 @@ class AssetCell: UITableViewCell {
     @IBOutlet var assetImage: UIImageView!
     @IBOutlet var assetNameLabel: UILabel!
     @IBOutlet var countAndPriceLabel: UILabel!
-    @IBOutlet var capitalizationLabel: UILabel!
+    @IBOutlet var capitalisationLabel: UILabel!
     @IBOutlet var growthLabel: UILabel!
     
     override func awakeFromNib() {
